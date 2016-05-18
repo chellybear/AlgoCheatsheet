@@ -1,0 +1,10 @@
+function factorialize(num) {
+  var fac = 1; // init factorial var
+  for(var i = num; i > 0; i--){ // multiply each number
+    fac *= i; //  and store in fac
+  }
+  
+  return fac;
+}
+
+factorialize(5);
