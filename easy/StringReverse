@@ -1,0 +1,8 @@
+// reverse a string we pass into the function.
+function reverseString(str) {
+  // take in a string, split it into an array, use the built-in reverse() function, turn it back into a string.
+  var reversed = str.split("").reverse().join("");
+  return reversed;
+}
+
+reverseString("hello");
